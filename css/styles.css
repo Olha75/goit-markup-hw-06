@@ -303,6 +303,7 @@ text-transform: capitalize;
 
 /*----------------DEVELOPMENT-------------*/
 .development {
+  display: none;
   padding-bottom: 120px;
 }
 .development-title {

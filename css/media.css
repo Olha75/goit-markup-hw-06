@@ -1,5 +1,8 @@
 @media screen and (min-width: 428px){
     .container{max-width:398px;}
+
+    
+
 }
 
 @media screen and (min-width: 768px){
@@ -8,10 +11,23 @@
 
     .skills-menu-item {
         width: calc((100% - 24px) / 2); }    
-                 
+
     .skills-menu{gap: 72px 24px;}
 
-
+    .development {display: none;}
 
 }
 
+@media screen and (min-width: 1158px){
+    .container{max-width:1158px;}
+
+    .skills-menu-item {
+        width: calc((100% - 72px) / 4);
+      }
+
+    .skills-menu-fon {display: inline-block;
+        display: flex;}
+
+        .development{display: flex;}
+
+     }
