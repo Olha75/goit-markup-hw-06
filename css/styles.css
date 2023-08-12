@@ -346,7 +346,7 @@ text-transform: capitalize;
 }
 
 .team-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 .team-list-menu {

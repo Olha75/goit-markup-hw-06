@@ -28,6 +28,11 @@
     .skills-menu-fon {display: inline-block;
         display: flex;}
 
+        .skills-subtitle{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;}
+
         .development{display: flex;}
 
      }
