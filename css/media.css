@@ -7,9 +7,9 @@
     margin-bottom: 96px;}
 
     .skills-menu-item {
-        width: calc((100% - 24px) / 2); }
-       
-        .skills-menu{gap: 72px 24px;}
+        width: calc((100% - 24px) / 2); }    
+                 
+    .skills-menu{gap: 72px 24px;}
 
 
 
