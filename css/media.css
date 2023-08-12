@@ -1,0 +1,17 @@
+@media screen and (min-width: 428px){
+    .container{max-width:398px;}
+}
+
+@media screen and (min-width: 768px){
+    .container{max-width:738px;
+    margin-bottom: 96px;}
+
+    .skills-menu-item {
+        width: calc((100% - 24px) / 2); }
+       
+        .skills-menu{gap: 72px 24px;}
+
+
+
+}
+

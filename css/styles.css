@@ -53,7 +53,7 @@ ol {
 
 .container {
   width: 100%;
-  width: 1158px;
+  /* width: 1158px; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -250,36 +250,56 @@ ol {
 
 .skills-menu {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 .skills-menu-fon {
   width: 264px;
   height: 112px;
   border-radius: 4px;
   background: var(--cloud, #f4f4fd);
-  display: inline-block;
-  display: flex;
+  /* display: inline-block;
+  display: flex; */
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  display: none;
 }
 
 .skills-menu-item {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
 }
 .skills-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+text-transform: capitalize;
+}
+/* DESK   .skills-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-}
+  
+} */
 .skills-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+  font-weight: 500;
+  align-self: stretch;
+  color: var(--slate, #434455);
+  }
+/* DESK .skills-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;} */
 
 /*----------------DEVELOPMENT-------------*/
 .development {
