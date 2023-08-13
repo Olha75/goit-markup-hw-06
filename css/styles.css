@@ -648,7 +648,7 @@ text-transform: capitalize;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -662,7 +662,7 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   max-width: 264px;
   text-align:left;
   margin-bottom: 72px;
@@ -687,6 +687,7 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+ padding-top: 72px;
   display: block;
   
   
@@ -696,7 +697,7 @@ text-transform: capitalize;
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .footer-menu-fon {
@@ -707,7 +708,6 @@ text-transform: capitalize;
   display: inline-block;
   display: flex;
   align-items: center;
-
   background-color: var(--iris, #4d5ae5);
 }
 .footer-menu-link {
@@ -749,8 +749,7 @@ text-transform: capitalize;
 }
 
 .footer-form-forma {
-  display: flexblock
-  ;
+  display: block;
   gap: 24px;
   margin: 0 auto;
 }
