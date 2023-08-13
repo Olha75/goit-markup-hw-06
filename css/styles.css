@@ -628,18 +628,16 @@ text-transform: capitalize;
   /* padding-left: 15px;
   padding-right: 15px; */
   
-}
+
 /* .footer-container {
-  display: block;
+  display: none;
   align-items: baseline;
   margin: 0 auto;
  
 } */
 .footer-left {
   margin: 0 auto;
-  /* justify-content: center;
-  align-items: center; */
-  text-align: center;
+    text-align: center;
 }
 .footer-logo {
   color: var(--iris, #4d5ae5);
