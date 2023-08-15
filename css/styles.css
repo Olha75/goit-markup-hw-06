@@ -662,7 +662,6 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  /* margin-top: 16px; */
   max-width: 264px;
   text-align:left;
   margin-bottom: 72px;
@@ -674,10 +673,8 @@ text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
   top: 100px;
-  
   display: block;
   align-items: baseline;
- 
 }
 
 .footer-title {
