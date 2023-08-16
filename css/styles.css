@@ -53,7 +53,6 @@ ol {
 
 .container {
   width: 100%;
-  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -119,9 +118,7 @@ ol {
 }
 
 .header-menu-list {
-  text-align: center;
-  display: flex;
-  gap: 40px;
+  display: none;
 }
 
 .header-menu-item {
@@ -150,10 +147,7 @@ ol {
   text-decoration: none;
 }
 .header-address {
-  font-style: normal;
-  text-align: center;
-  display: flex;
-  margin-left: auto;
+display: none;
 }
 
 .current::after {
@@ -187,6 +181,37 @@ ol {
   color: var(--ocean, #404bbf);
   text-decoration: none;
 }
+.header-mob-menu-btn{
+    margin-left: auto;
+    align-items: center;
+    background-color:transparent;
+      cursor: pointer;
+      border:none;
+      padding: 24px 0;
+}
+.header-mob-frame{
+  stroke:#2e2f42;
+}
+.header-mob-frame :hover..header-mob-frame :focus{
+  stroke:var(--ocean, #404bbf);}
+  .header-mob-menu{
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+z-index: 20;
+background: var(--white, #FFF);
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+padding: 24px 24px 40px 40px;
+  }
+  .header-mob-menu-close{
+    display: block;
+    margin-left: auto;
+  }
+  .header-mob-list{}
+.header-mob-item{}
+.header-mob-link{}
+
 /*----------------BUSINESS-------------*/
 
 .business {

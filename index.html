@@ -11,6 +11,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,10 +59,47 @@
             </li>
           </ul>
         </address>
+        <button class="header-mob-menu-btn" type="button" js-open-menu>
+          <svg class="header-mob-frame" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
+    
       </div>
+      <div class="header-mob-menu"><button type="button" class="mob-menu-close"><svg class="social-frame" width="24" height="24"></svg></button>
+      <ul class="header-mob-list list">
+        <li class="header-mob-item">
+          <a class="header-mob-link current link" href="./index.html"
+            >Studio</a
+          >
+        </li>
+        <li class="header-mob-item">
+          <a class="header-mob-link link" href="./portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="header-mob-item">
+          <a class="header-mob-link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="header-mob-address-link list">
+        <li class="header-mob-address-menu">
+          <a
+            class="link header-address-link"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-mob-address-menu">
+          <a class="link header-address-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </div>
     </header>
     <main>
-      <section class="business">
+      <!-- <section class="business">
         <div class="container">
           <h1 class="business-title">
             Effective Solutions <br />
@@ -71,8 +109,9 @@
             Order Service
           </button>
         </div>
-      </section>
-      <section class="skills">
+      </section> -->
+
+      <!-- <section class="skills">
         <div class="container">
           <h2 class="visually-hidden">Skills</h2>
           <ul class="skills-menu list">
@@ -126,8 +165,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="development">
+      </section> -->
+
+      <!-- <section class="development">
         <div class="container">
           <h2 class="development-title">What are we doing</h2>
           <ul class="development-menu-list list">
@@ -157,8 +197,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="team">
+      </section> -->
+
+      <!-- <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -352,8 +393,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="customers">
+      </section> -->
+
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-menu list">
@@ -395,9 +437,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div class="footer-left">
           <a class="footer-logo link" href="./index.html"
@@ -455,8 +498,9 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -533,7 +577,9 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
+
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
