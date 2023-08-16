@@ -175,12 +175,16 @@ display: none;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.header-address-link:hover {
+  color: var(--ocean, #404bbf);
+  text-decoration: none;
+}
 
-.header-address-link:hover,
 .header-address-link:focus {
   color: var(--ocean, #404bbf);
   text-decoration: none;
 }
+
 .header-mob-menu-btn{
     margin-left: auto;
     align-items: center;
@@ -189,28 +193,85 @@ display: none;
       border:none;
       padding: 24px 0;
 }
-.header-mob-frame{
+
+.header-mob-frame {
   stroke:#2e2f42;
 }
-.header-mob-frame :hover..header-mob-frame :focus{
+
+.header-mob-frame :hover,
+.header-mob-frame :focus{
   stroke:var(--ocean, #404bbf);}
+
   .header-mob-menu{
 width: 100vw;
 height: 100vh;
 position: fixed;
 top: 0;
-z-index: 20;
+z-index: 20px;
 background: var(--white, #FFF);
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 padding: 24px 24px 40px 40px;
+display: flex;
+flex-direction:column ;
+justify-content: space-between;
+overflow: auto;
   }
-  .header-mob-menu-close{
+
+  .header-mob-position{
+  
+  }
+  .mob-menu-close-btn {
     display: block;
     margin-left: auto;
+    margin-bottom: 32px;
   }
-  .header-mob-list{}
-.header-mob-item{}
-.header-mob-link{}
+  .header-mob-list{
+    color: var(--navyblue, #2E2F42);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 100px;
+  }
+
+.header-mob-item:not(:last-child){
+margin-bottom: 40px;
+}
+
+.header-mob-link{ }
+
+.header-mob-social-list{
+  display: flex;
+  gap:56px;
+
+}
+.header-mob-address-link{ }
+.header-mob-address-menu{gap:40p;
+
+}
+.header-mob-tel {
+  color: var(--iris, #4D5AE5);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+
+.header-mob-email{margin-top: 40px;
+  color: var(--slate, #434455);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;}
+
+.header-mob-social{}
+.header-mob-soclink{}
+.header-mob-soc-icon{}
+
 
 /*----------------BUSINESS-------------*/
 
