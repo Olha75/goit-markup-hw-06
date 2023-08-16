@@ -53,7 +53,7 @@ ol {
 
 .container {
   width: 100%;
-  /* width: 1158px; */
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -250,60 +250,39 @@ ol {
 
 .skills-menu {
   display: flex;
-  flex-wrap: wrap;
-  gap: 72px;
+  gap: 24px;
 }
 .skills-menu-fon {
   width: 264px;
   height: 112px;
   border-radius: 4px;
   background: var(--cloud, #f4f4fd);
-  /* display: inline-block;
-  display: flex; */
+  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-  display: none;
 }
 
 .skills-menu-item {
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
 }
 .skills-subtitle {
-  color: var(--navyblue, #2e2f42);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  text-align: center;
-text-transform: capitalize;
-}
-/* DESK   .skills-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  
-} */
+}
 .skills-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-weight: 500;
-  align-self: stretch;
-  color: var(--slate, #434455);
-  }
-/* DESK .skills-item-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;} */
+}
 
 /*----------------DEVELOPMENT-------------*/
 .development {
-  display: none;
   padding-bottom: 120px;
 }
 .development-title {
@@ -346,7 +325,7 @@ text-transform: capitalize;
 }
 
 .team-list {
-  /* display: flex; */
+  display: flex;
   gap: 24px;
 }
 .team-list-menu {
@@ -424,7 +403,7 @@ text-transform: capitalize;
 
 /*------------------CUSTOMER-----------------*/
 .customers {
-  padding: 96px 0;
+  padding: 120px 0;
 }
 .customers-title {
   color: var(--navyblue, #2e2f42);
@@ -440,9 +419,7 @@ text-transform: capitalize;
 
 .customers-menu {
   display: flex;
-  flex-wrap: wrap;
-  gap: 88px 16px;
-
+  gap: 24px;
 }
 
 .customers-link {
@@ -451,7 +428,7 @@ text-transform: capitalize;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
-    align-items: center;
+  align-items: center;
   justify-content: center;
   color: var(--light-slate, #8e8f99);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -465,7 +442,7 @@ text-transform: capitalize;
 }
 
 .customers-menu-item {
-  width: calc((100% - 24px) /2);
+  width: calc((100% - 5 * 24px) / 6);
   height: 88px;
   transition: transform 250ms linear;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -618,26 +595,20 @@ text-transform: capitalize;
 
 .footer {
   background-color: #2e2f42;
-  padding: 97px 0;
-  display: block;
+  padding: 100px 0;
+  display: flex;
   margin: 0;
-   justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  
-
-/* .footer-container {
-  display: none;
+.footer-container {
+  display: flex;
   align-items: baseline;
   margin: 0 auto;
- 
-} */
+}
 .footer-left {
   margin: 0 auto;
-    text-align: center;
+  margin-right: 120px;
 }
 .footer-logo {
   color: var(--iris, #4d5ae5);
@@ -663,18 +634,16 @@ text-transform: capitalize;
   letter-spacing: 0.02em;
   margin: 0 auto;
   max-width: 264px;
-  text-align:left;
-  margin-bottom: 72px;
-
-  
 }
 
 .footer-social-menu {
   text-align: center;
   margin: 0 auto;
   top: 100px;
+  left: 540px;
   display: block;
   align-items: baseline;
+  margin-right: 80px;
 }
 
 .footer-title {
@@ -684,17 +653,14 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
- padding-top: 72px;
   display: block;
-  
-  
+  text-align: left;
 }
 
 .footer-menu-list {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding-bottom: 72px;
 }
 
 .footer-menu-fon {
@@ -705,6 +671,7 @@ text-transform: capitalize;
   display: inline-block;
   display: flex;
   align-items: center;
+
   background-color: var(--iris, #4d5ae5);
 }
 .footer-menu-link {
@@ -742,11 +709,9 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  text-align: center;
 }
-
 .footer-form-forma {
-  display: block;
+  display: flex;
   gap: 24px;
   margin: 0 auto;
 }
@@ -754,7 +719,7 @@ text-transform: capitalize;
   margin: 0 auto;
 }
 .footer-forma-email {
-  width: 100%;
+  width: 264px;
   height: 40px;
   flex-shrink: 0;
   font-size: 12px;
@@ -767,10 +732,7 @@ text-transform: capitalize;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  opacity: 0.3;
-  margin-bottom: 16px;
 }
-
 
 ::placeholder {
   color: var(--white, #fff);
@@ -782,7 +744,6 @@ text-transform: capitalize;
 }
 
 .footer-forma-btn {
-  margin: 0 auto;
   display: flex;
   padding: 8px 24px;
   justify-content: center;
@@ -830,6 +791,7 @@ text-transform: capitalize;
   padding: 72px 24px 24px 24px;
   gap: 8px;
   margin: 0 auto;
+  margin-top: 80px;
   position: relative;
 }
 
