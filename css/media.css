@@ -68,12 +68,7 @@
         url(../images/people-office-tablet.jpg);
     }
 
-    .business-title {
-      margin: 0 auto 36px;
-      width: 496px;
-font-size: 56px;
-line-height: 1.07;
-}
+  }
 
 
 
@@ -83,7 +78,6 @@ line-height: 1.07;
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 100%;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -98,8 +92,7 @@ line-height: 1.07;
     display: none;
   }
   
-  
-  .header {
+    .header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
@@ -219,16 +212,17 @@ line-height: 1.07;
     background-size: cover;
     text-align: center;
     padding: 188px 0;
-    display: block;
     margin: 0 auto;
-    align-items: center;
+    
+    width: 100%;
     max-width: 1440px;
   }
   .business-title {
       font-size: 56px;
     line-height: 1.07;
-        max-width: 496px;
+    max-width: 496px;
     margin: 0 auto 48px;
+    width: 496px;
   }
   
   .business-btn {
