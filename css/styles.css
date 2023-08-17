@@ -391,41 +391,37 @@ text-transform: capitalize;
 /*----------------SKILLS--------------*/
 
 .skills {
-  padding: 120px 0;
+  padding: 96px 15px;
 }
 
 .skills-menu {
-  display: flex;
-  gap: 24px;
+  display: inline-block;
 }
 .skills-menu-fon {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: var(--cloud, #f4f4fd);
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+display: none;
 }
 
 .skills-menu-item {
-  width: calc((100% - 72px) / 4);
+
 }
 .skills-subtitle {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+align-self: stretch;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 8px;
 }
 .skills-item-text {
+  align-self: stretch;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+  }
+
+  .skills-item-text{}
 
 /*----------------DEVELOPMENT-------------*/
 .development {

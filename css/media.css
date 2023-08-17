@@ -69,6 +69,28 @@ width: 496px;
 line-height:1.07;
 letter-spacing: 0.02em;
 margin-bottom: 36px;}
+
+.skills {
+  padding: 120px 0;
+}
+.skills-menu-fon {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
   }
 
 
