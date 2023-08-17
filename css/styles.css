@@ -90,8 +90,7 @@ ol {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
+   margin: 0 auto;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
@@ -167,7 +166,6 @@ display: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   margin: 0;
   padding-left: 0;
   text-align: center;
@@ -175,15 +173,12 @@ display: none;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-address-link:hover {
-  color: var(--ocean, #404bbf);
-  text-decoration: none;
-}
-
+.header-address-link:hover,
 .header-address-link:focus {
-  color: var(--ocean, #404bbf);
-  text-decoration: none;
-}
+      color: var(--ocean, #404bbf);
+      text-decoration: none;
+      }
+
 /* ---------------------HEADER MOBIL------------------- */
 .header-mob-menu-btn{
     margin-left: auto;
@@ -198,9 +193,11 @@ display: none;
   stroke:#2e2f42;
 }
 
-.header-mob-frame:hover,
-.header-mob-frame:focus{
+.header-mob-frame :hover{
   stroke:var(--ocean, #404bbf);}
+
+  .header-mob-frame :focus{
+    stroke:var(--ocean, #404bbf);}
 
   .header-mob-menu{
 width: 100vw;
@@ -238,14 +235,7 @@ justify-content: space-between;
     height: 24px;
   }
 
-    
-  .header-mob-menu :hover.mob-icon,
-  .header-mob-menu :focus.mob-icon {
-    background-color: var(--ocean, #404bbf);
-    fill: #ffffff;
-    border: none;
-  }
-.mob-icon :hover{ background-color: var(--ocean, #404bbf);
+  .mob-icon :hover{ background-color: var(--ocean, #404bbf);
   fill: #ffffff;
   border: none;
 }

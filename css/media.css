@@ -4,14 +4,100 @@
 @media screen and (max-width:417px){
   .header-mob-tel{ font-size: 26px;
     }
-    .header-mob-social-list {gap: 30px;}
+  .header-mob-social-list {gap: 30px;}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1127px) {
   .container {
     max-width: 768px;
   }
-  
+
+  .header-mob-menu-btn {
+    display: none;
+  }
+
+  .header-mob-menu {
+    display: none;
+  }
+
+  .header-menu-list {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-address-menu {
+    color: var(--slate, #434455);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .header-address-link {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-address {
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+  }
+
+  .header-address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+}
+    /*----------------BUSINESS-------------*/
+    
+    .business {
+      background-color: #2e2f42;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      padding: 188px 0;
+      display: block;
+      margin: 0 auto;
+      align-items: center;
+      max-width: 1440px;
+    }
+    .business-title {
+      color: var(--white, #ffffff);
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      max-width: 496px;
+      margin: 0 auto 48px;
+    }
+    
+    .business-btn {
+      color: var(--white, #ffffff);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      background: var(--iris, #4d5ae5);
+      font-family: inherit;
+      margin: 0 auto;
+      border: none;
+      border-radius: 4px;
+      padding: 16px 32px;
+      min-width: 169px;
+      display: block;
+      justify-items: center;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 1158px) {
@@ -20,15 +106,14 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .header-mob-menu-btn{
+  
+  .header-mob-menu-btn {
     display: none;
   }
-  .header-mob-menu{display:none ;}
-  .header-mob-frame{display:none ;}
 
-  .header-mob-menu-close {display:none ;}
-  .header-mob-menu {display: none;}
-
+  .header-mob-menu {
+    display: none;
+  }
   * {
     box-sizing: border-box;
   }
