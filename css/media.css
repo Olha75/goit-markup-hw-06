@@ -56,17 +56,19 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
-
-    /*----------------BUSINESS-------------*/
-    
-    .business {
-      background-color: #2e2f42;
-      background-image: linear-gradient(
+  .business {background-color: #2e2f42;
+    background-image: linear-gradient (
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
-        ),
+          ),
         url(../images/people-office-tablet.jpg);
     }
+  .business-title {
+font-size: 56px;
+width: 496px;
+line-height:1.07;
+letter-spacing: 0.02em;
+margin-bottom: 36px;}
 
   }
 
@@ -76,9 +78,9 @@
 
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1128px) {
   .container {
-    width: 1158px;
+    width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -197,8 +199,7 @@
     color: var(--ocean, #404bbf);
     text-decoration: none;
   }
-  .mob-menu-open
-  /*----------------BUSINESS-------------*/
+  .mob-menu-open{}
   
   .business {
     background-color: #2e2f42;
