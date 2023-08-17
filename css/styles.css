@@ -223,7 +223,6 @@ justify-content: space-between;
     display: block;
     margin-left: auto;
     margin-bottom: 32px;
-    position: absolute;
     top: 24px;
     right: 24px;
     border-radius: 50%;
@@ -238,19 +237,45 @@ justify-content: space-between;
     width: 24px;
     height: 24px;
   }
+
+    
+  .header-mob-menu :hover.mob-icon,
+  .header-mob-menu :focus.mob-icon {
+    background-color: var(--ocean, #404bbf);
+    fill: #ffffff;
+    border: none;
+  }
+.mob-icon :hover{ background-color: var(--ocean, #404bbf);
+  fill: #ffffff;
+  border: none;
+}
+.mob-icon :focus {background-color: var(--ocean, #404bbf);
+  fill: #ffffff;
+  border: none;}
+
+
   .header-mob-list{
-    color: var(--navyblue, #2E2F42);
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+ 
   }
 
-.header-mob-item{
+.header-mob-item{   color: var(--navyblue, #2E2F42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .header-mob-item:not(:last-child){margin-bottom: 40px;}
+
+
+.header-mob-link{  color: var(--navyblue, #2E2F42);  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;}
+
 .header-mob-link:hover,
   .header-mob-link:focus {
     color: var(--ocean, #404bbf);
