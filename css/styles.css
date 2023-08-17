@@ -344,6 +344,7 @@ max-width: 100%;}
   background-size: cover;
   text-align: center;
   padding: 112px 0;
+  display: block;
   margin: 0 auto;
   align-items: center;
 }

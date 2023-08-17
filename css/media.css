@@ -69,7 +69,6 @@ width: 496px;
 line-height:1.07;
 letter-spacing: 0.02em;
 margin-bottom: 36px;}
-
   }
 
 
@@ -377,7 +376,7 @@ margin-bottom: 36px;}
     margin: 0 auto;
     flex-shrink: 0;
     gap: 24px;
-  }
+   }
   
   .team-menu-fon {
     flex-shrink: 0;
