@@ -274,7 +274,7 @@ justify-content: space-between;
 
 .header-mob-social-list{
   display: flex;
-  gap:56px;
+  gap:30px;
   margin-top: 48px;
 
 }
@@ -289,7 +289,7 @@ max-width: 100%;}
 
 .header-mob-tel {
   color: var(--iris, #4D5AE5);
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -338,26 +338,29 @@ max-width: 100%;}
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding: 188px 0;
+  padding: 112px 0;
   display: block;
   margin: 0 auto;
   align-items: center;
-  max-width: 1440px;
 }
 .business-title {
   color: var(--white, #ffffff);
-  font-size: 56px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto 48px;
+  margin: 0 auto 72px;
+text-align: center;
+text-transform: capitalize;
 }
+
+
+
 
 .business-btn {
   color: var(--white, #ffffff);
