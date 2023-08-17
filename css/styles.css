@@ -184,7 +184,7 @@ display: none;
   color: var(--ocean, #404bbf);
   text-decoration: none;
 }
-
+/* ---------------------HEADER MOBIL------------------- */
 .header-mob-menu-btn{
     margin-left: auto;
     align-items: center;
@@ -198,8 +198,8 @@ display: none;
   stroke:#2e2f42;
 }
 
-.header-mob-frame :hover,
-.header-mob-frame :focus{
+.header-mob-frame:hover,
+.header-mob-frame:focus{
   stroke:var(--ocean, #404bbf);}
 
   .header-mob-menu{
@@ -214,16 +214,29 @@ padding: 24px 24px 40px 40px;
 display: flex;
 flex-direction:column ;
 justify-content: space-between;
-overflow: auto;
   }
 
   .header-mob-position{
-  
-  }
+    }
+
   .mob-menu-close-btn {
     display: block;
     margin-left: auto;
     margin-bottom: 32px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 24px;
+    height: 24px;
   }
   .header-mob-list{
     color: var(--navyblue, #2E2F42);
@@ -232,24 +245,33 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 100px;
   }
 
-.header-mob-item:not(:last-child){
-margin-bottom: 40px;
+.header-mob-item{
 }
 
-.header-mob-link{ }
+.header-mob-item:not(:last-child){margin-bottom: 40px;}
+.header-mob-link:hover,
+  .header-mob-link:focus {
+    color: var(--ocean, #404bbf);
+    text-decoration: underline;
+    text-decoration: none; }
 
 .header-mob-social-list{
   display: flex;
   gap:56px;
+  margin-top: 48px;
 
 }
-.header-mob-address-link{ }
-.header-mob-address-menu{gap:40p;
+.header-mob-address{ 
+margin-bottom: 40px;
+flex-shrink: 0;
+display: block;
+max-width: 100%;}
 
+.header-mob-address-menu{
 }
+
 .header-mob-tel {
   color: var(--iris, #4D5AE5);
   font-size: 36px;
@@ -257,20 +279,40 @@ margin-bottom: 40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display:block;
+  min-width:100%;
   margin-bottom: 40px;
 }
 
 
-.header-mob-email{margin-top: 40px;
+.header-mob-email{
   color: var(--slate, #434455);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;}
 
+
+
+  .header-mob-social{
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    
+  }
 .header-mob-social{}
+
 .header-mob-soclink{}
-.header-mob-soc-icon{}
+
+.header-mob-soc-icon{
+ fill: #f4f4FD
+}
 
 
 /*----------------BUSINESS-------------*/

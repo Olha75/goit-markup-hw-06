@@ -1,11 +1,17 @@
-@media screen and (min-width:428px){
-  
+@media screen and (min-width:418px){
+  }
+
+@media screen and (max-width:417px){
+  .header-mob-tel{ font-size: 26px;
+    }
+    .header-mob-social-list {gap: 30px;}
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  
 }
 
 @media screen and (min-width: 1158px) {
