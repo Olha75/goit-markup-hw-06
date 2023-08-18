@@ -552,6 +552,8 @@ color: var(--navyblue, #2E2F42);
   display: flex;
   flex-wrap: wrap;
   gap: 72px 16px;
+  margin: 0 auto;
+  max-width: 398px;
 }
 
 .customers-link {
@@ -576,7 +578,6 @@ color: var(--navyblue, #2E2F42);
 .customers-menu-item {
   width: calc((100% - 24px) / 2);
   height: 88px;
-  
   transition: transform 250ms linear;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
 }

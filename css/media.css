@@ -9,7 +9,9 @@
 .customers-menu-item {width: 190px;
 }
 
-
+.customers-menu{
+  /* max-width: 768px; */
+}
 }
 
 
@@ -112,6 +114,21 @@ gap:64px 24px;
     .team-menu-fon-list{
     gap: 24px;
     justify-content: center;}
+
+
+    .customers-menu{
+    padding-left: 93px;
+    padding-right: 93px;
+  max-width: 768px;
+  gap: 72px 24px;}
+
+    .customers-menu-item {
+    width: calc((100% - 48px) / 3);
+  }
+    
+
+
+
 }
 
 
