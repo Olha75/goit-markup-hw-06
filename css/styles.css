@@ -434,7 +434,7 @@ color: var(--navyblue, #2E2F42);
 /*----------------TEAM----------------*/
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .team-title {
@@ -449,14 +449,21 @@ color: var(--navyblue, #2E2F42);
   margin-bottom: 72px;
 }
 
+
+
+
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .team-list-menu {
-  background-color: #ffffff;
+  width: 100%;
+   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
