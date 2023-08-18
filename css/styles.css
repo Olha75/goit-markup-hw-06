@@ -391,7 +391,7 @@ text-transform: capitalize;
 /*----------------SKILLS--------------*/
 
 .skills {
-  padding: 96px 15px;
+  padding: 96px 0;
 }
 
 .skills-menu {
@@ -415,15 +415,16 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 8px;
+color: var(--navyblue, #2E2F42);
 }
 .skills-item-text {
   align-self: stretch;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   }
 
-  .skills-item-text{}
 
 /*----------------DEVELOPMENT-------------*/
 .development {

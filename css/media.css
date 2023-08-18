@@ -70,29 +70,35 @@ line-height:1.07;
 letter-spacing: 0.02em;
 margin-bottom: 36px;}
 
-.skills {
-  padding: 120px 0;
-}
+
+.skills-menu {
+  gap: 72px 24px;}
+
 .skills-menu-fon {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: var(--cloud, #f4f4fd);
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
+  display: none;
+  }
+  .social-icon{
+    display: none;
+    }
 
-
-
-
-
-
-
+.skills-menu-item {
+  width: calc((100% - 24px) / 2);
+  
   }
 
+  .skills-subtitle {
+      text-align: left;
+      width: 264px;
+  }
+
+      .skills-item-text {
+      align-self: stretch;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      }
+
+}
 
 
 
