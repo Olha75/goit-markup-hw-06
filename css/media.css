@@ -90,6 +90,12 @@ margin-bottom: 36px;}
       width: 264px;
   }
 
+  .development {
+    display: none;
+  }
+
+  
+
 
 }
 
@@ -310,13 +316,10 @@ margin-bottom: 36px;}
       letter-spacing: 0.02em;
     width: 264px;
 font-weight: 400;
-
-
-
   }
   
   /*----------------DEVELOPMENT-------------*/
-  .development {
+  .development {display: flex;
     padding-bottom: 120px;
   }
   .development-title {

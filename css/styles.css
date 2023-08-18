@@ -428,27 +428,7 @@ color: var(--navyblue, #2E2F42);
 
 /*----------------DEVELOPMENT-------------*/
 .development {
-  padding-bottom: 120px;
-}
-.development-title {
-  color: var(--navyblue, #2e2f42);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  display: block;
-  margin: 0 auto 72px;
-  text-align: center;
-}
-
-.development-menu-list {
-  display: flex;
-  gap: 24px;
-}
-
-.development-menu-item {
-  width: calc((100% - 48px) / 3);
+  display: none;
 }
 
 /*----------------TEAM----------------*/
