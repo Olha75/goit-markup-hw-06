@@ -534,7 +534,7 @@ color: var(--navyblue, #2E2F42);
 
 /*------------------CUSTOMER-----------------*/
 .customers {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .customers-title {
   color: var(--navyblue, #2e2f42);
@@ -550,7 +550,8 @@ color: var(--navyblue, #2E2F42);
 
 .customers-menu {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
 }
 
 .customers-link {
@@ -573,8 +574,9 @@ color: var(--navyblue, #2E2F42);
 }
 
 .customers-menu-item {
-  width: calc((100% - 5 * 24px) / 6);
+  width: calc((100% - 24px) / 2);
   height: 88px;
+  
   transition: transform 250ms linear;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
 }

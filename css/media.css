@@ -6,11 +6,11 @@
     font-size: 36px;
   width: 320px;
 }
-
+.customers-menu-item {width: 190px;
 }
 
 
-
+}
 
 
 @media screen and (min-width: 768px) and (max-width:1157px) {
@@ -359,7 +359,7 @@ font-weight: 400;
   }
   
 
-  
+
   /*----------------TEAM----------------*/
   .team {
     padding: 120px 0;
