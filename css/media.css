@@ -591,21 +591,18 @@ font-weight: 400;
   /*-----------FOOTER------------*/
   
   .footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
-    display: flex;
-    margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+      padding: 100px 0;
+   
   }
   .footer-container {
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .footer-left {
     margin: 0 auto;
     margin-right: 120px;
+    padding-bottom: 0;
   }
   .footer-logo {
     color: var(--iris, #4d5ae5);
