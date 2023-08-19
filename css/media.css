@@ -134,17 +134,45 @@ gap:64px 24px;
     align-items: baseline;
   padding-left: 93px;
   padding-right: 93px;
+
   }
   .footer-left{
-  margin: 0 auto;
-  text-align: left;}
+  margin: 0;
+  text-align: left;
+margin-right: 24px;}
 
-  .footer-social-menu{margin: 0 auto;}
+  .footer-social-menu{
+  margin: 0;}
+
+
+  .footer-title {
+      text-align:left;
+  }
+
+  .footer-logo{justify-content: left;}
+
+
+  .footer-forma-title {  
+    text-align: left;
+  }
+  
+.footer-forma {
+  margin: 0;}
+
+  .footer-form-forma {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: left;}
+
+  .footer-forma-label {
+    margin: 0;}
+  .footer-forma-email {margin: 0;width: 264px;margin-right: 24px;}
+
+
 
 
   }
-
-
 
 
 
