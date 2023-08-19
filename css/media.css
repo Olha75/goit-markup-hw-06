@@ -423,6 +423,8 @@ font-weight: 400;
   .customers-menu {
     display: flex;
     gap: 24px;
+    margin: 0 auto;
+    max-width: 1158px;
   }
   
   .customers-link {
