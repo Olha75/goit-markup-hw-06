@@ -729,20 +729,23 @@ color: var(--navyblue, #2E2F42);
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
   display: flex;
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
 }
 .footer-container {
-  display: flex;
-  align-items: baseline;
+ flex-wrap: wrap;
   margin: 0 auto;
 }
 .footer-left {
   margin: 0 auto;
-  margin-right: 120px;
+  padding-bottom: 72px;
+ align-items: center;
+ justify-content: center;
+
+ 
 }
 .footer-logo {
   color: var(--iris, #4d5ae5);
@@ -752,13 +755,15 @@ color: var(--navyblue, #2E2F42);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
-}
+  display: flex;
+  margin: auto;
+  margin-bottom: 16px;   justify-content: center;}
+
 
 .footer-logo-color {
   color: var(--cloud, #f4f4fd);
-  display: inline-block;
+  display: flex;
+    justify-content: center;
 }
 
 .footer-text {
@@ -767,17 +772,23 @@ color: var(--navyblue, #2E2F42);
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  max-width: 264px;
+  max-width: 268px;
+  
 }
 
+
+
+
+
+
+
+
+
 .footer-social-menu {
-  text-align: center;
   margin: 0 auto;
-  top: 100px;
-  left: 540px;
-  display: block;
-  align-items: baseline;
-  margin-right: 80px;
+  display: flex;
+ flex-direction: column;
+padding-bottom: 72px;
 }
 
 .footer-title {
@@ -788,7 +799,7 @@ color: var(--navyblue, #2E2F42);
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   display: block;
-  text-align: left;
+  text-align:center;
 }
 
 .footer-menu-list {
@@ -843,19 +854,21 @@ color: var(--navyblue, #2E2F42);
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: center;
 }
 .footer-form-forma {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: center;
 }
 .footer-forma-label {
   margin: 0 auto;
 }
 .footer-forma-email {
-  width: 264px;
+  width: 290px;
   height: 40px;
-  flex-shrink: 0;
+  margin: 0 auto;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -866,6 +879,8 @@ color: var(--navyblue, #2E2F42);
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  opacity: 0.3;
+  margin-bottom: 16px;
 }
 
 ::placeholder {
@@ -873,7 +888,6 @@ color: var(--navyblue, #2E2F42);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding-left: 16px;
   align-items: center;
 }
 
