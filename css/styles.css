@@ -660,8 +660,7 @@ max-width: 263px;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+   row-gap: 48px;
   width: 100%;
 }
 .portfolio-link {
