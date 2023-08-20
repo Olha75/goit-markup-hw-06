@@ -174,7 +174,6 @@ margin-bottom: 36px;}
 
   }
   .footer-left{
-  margin: 0;
   text-align: left;
 margin-right: 24px;}
 
@@ -650,7 +649,7 @@ font-weight: 400;
   }
   .footer-left {
     margin-right: 120px;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .footer-logo {
     display: inline-block;
@@ -671,20 +670,22 @@ font-weight: 400;
     display: block;
     align-items: baseline;
     margin-right: 80px;
-    padding: 0;
+    margin-bottom: 0;
   }
   
   .footer-title {
       text-align: left;
   }
-    
- 
+  .footer-forma{width: 453px;
+  }
   .footer-forma-title {
     text-align: left;
   }
   .footer-form-forma {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
+    width: 453px;
    }
   
   .footer-forma-email {
