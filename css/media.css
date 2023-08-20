@@ -2,37 +2,17 @@
   .header-mob-tel{ font-size: 36px;
   }
 .header-mob-social-list { gap:56px;}
+
+/* .business {
+    srcset="../images/people-office-tablet.jpg 420w";
+    } */
+
 .business-title {
     font-size: 36px;
   width: 320px;
 }
 .customers-menu-item {width: 190px;
 }
-
-.customers-menu{
-  /* max-width: 768px; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -101,13 +81,31 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
-  .business {background-color: #2e2f42;
-    background-image: linear-gradient (
+  .business {
+    background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
           ),
         url(../images/people-office-tablet.jpg);
     }
+
+    
+@media (min-device-pixel-ratio:2), 
+(min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+  .business{ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/people-office-tablet-2x.jpg);}}
+
+
+    /* .business {
+      img srcset="./images/people-office.jpg 1000w";
+      }
+   */
+
+
   .business-title {
 font-size: 56px;
 width: 496px;
@@ -139,18 +137,18 @@ margin-bottom: 36px;}
     display: none;
   }
 
+  .team .container{width: 584px;}
 
   .team-list {
-gap:64px 24px;
+    gap:64px 24px;
     width: 100%;
-    padding-left: 93px;
-    padding-right: 93px;
-  }
+    padding: 0;
+      }
 
   .team-img {margin: 0 auto;} 
 
   .team-list-menu {
-    width: calc((100% - 48px) / 2);}
+    width: calc((100% - 24px) / 2);}
 
 
     .team-menu-fon-list{
@@ -345,7 +343,6 @@ margin-right: 24px;}
   }
   
   .business {
-    background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -357,10 +354,20 @@ margin-right: 24px;}
     text-align: center;
     padding: 188px 0;
     margin: 0 auto;
-    
-    width: 100%;
+        width: 100%;
     max-width: 1440px;
   }
+
+
+  @media (min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .business{ background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-2x.jpg);}}
+
+
   .business-title {
       font-size: 56px;
     line-height: 1.07;
