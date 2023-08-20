@@ -15,10 +15,11 @@
 }
 
 
-
+.footer-form-forma{max-width: 398px;}
 
 
 .footer-forma-email {width: 398px;
+ 
 }
 
 .modal{ width: 392px;
@@ -199,11 +200,14 @@ margin-right: 24px;}
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: left;}
+    justify-content: left;
+  min-width: 584px;}
 
   .footer-forma-label {
     margin: 0;}
-  .footer-forma-email {margin: 0;width: 264px;margin-right: 24px;}
+  .footer-forma-email {margin: 0;
+    width: 264px;
+    margin-right: 24px;}
 
   .modal{ width: 408px;
     padding: 72px 25px 24px 23px;}
