@@ -199,7 +199,16 @@ margin-bottom: 36px;}
   .portfolio-btn {
         padding: 12px 24px;}
   
-    
+        .portfolio-projects-list{
+          max-width: 736px;
+          gap:72px 24px;
+          justify-content: flex-start;
+        }
+
+        .portfolio-item {
+        width: calc((100% - 24px) / 2);}
+
+
   .footer-container {
     margin: 0 auto;
     display: flex;
