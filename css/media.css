@@ -184,6 +184,19 @@ margin-bottom: 36px;}
     .customers-menu-item {
     width: calc((100% - 48px) / 3);
   }
+
+  .portfolio-filtr-list{
+    margin: 0 auto;
+    max-width: 600px;
+    gap: 24px;
+    flex-wrap: nowrap;
+      margin-bottom: 64px;
+      
+  }
+
+  .portfolio-btn {
+        padding: 12px 24px;}
+  
     
   .footer-container {
     margin: 0 auto;
