@@ -137,7 +137,7 @@ margin-bottom: 36px;}
     display: none;
   }
 
-  .team .container{width: 584px;}
+  .team .container, .customers .container, .footer .container{width: 584px;}
 
   .team-list {
     gap:64px 24px;
@@ -157,9 +157,7 @@ margin-bottom: 36px;}
 
 
     .customers-menu{
-    padding-left: 93px;
-    padding-right: 93px;
-  max-width: 768px;
+     max-width: 768px;
   gap: 72px 24px;}
 
     .customers-menu-item {
@@ -170,8 +168,8 @@ margin-bottom: 36px;}
     margin: 0 auto;
     display: flex;
     align-items: baseline;
-  padding-left: 93px;
-  padding-right: 93px;
+  /* padding-left: 93px;
+  padding-right: 93px; */
 
   }
   .footer-left{
