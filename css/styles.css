@@ -462,7 +462,6 @@ color: var(--navyblue, #2E2F42);
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-  padding: 0 15px;
   margin: 0 auto;
   width: 264px;
 }
@@ -582,7 +581,7 @@ color: var(--navyblue, #2E2F42);
 }
 
 .customers-menu-item {
-  width: calc((100% - 24px) / 2);
+  width: calc((100% - 16px) / 2);
   height: 88px;
   transition: transform 250ms linear;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
