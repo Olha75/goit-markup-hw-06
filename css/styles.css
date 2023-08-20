@@ -213,8 +213,6 @@ flex-direction:column ;
 justify-content: space-between;
   }
 
- 
-
   .mob-menu-close-btn {
     display: block;
     margin-left: auto;
@@ -241,9 +239,6 @@ justify-content: space-between;
 .mob-icon :focus {background-color: var(--ocean, #404bbf);
   fill: #ffffff;
   border: none;}
-
-
- 
 
 .header-mob-item{   color: var(--navyblue, #2E2F42);
   font-size: 36px;
@@ -282,7 +277,6 @@ display: block;
 max-width: 100%;}
 
 
-
 .header-mob-tel {
   color: var(--iris, #4D5AE5);
   font-size: 26px;
@@ -295,14 +289,12 @@ max-width: 100%;}
   margin-bottom: 40px;
 }
 
-
 .header-mob-email{
   color: var(--slate, #434455);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;}
-
 
 
   .header-mob-social{
@@ -346,8 +338,8 @@ max-width: 100%;}
 }
 
 @media (min-device-pixel-ratio: 2),
- (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .business { background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
@@ -367,7 +359,6 @@ max-width: 100%;}
 text-align: center;
 text-transform: capitalize;
 }
-
 
 
 
@@ -467,7 +458,7 @@ color: var(--navyblue, #2E2F42);
 }
 .team-list-menu {
   width: 100%;
-   background-color: #ffffff;
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
