@@ -3,9 +3,13 @@
   }
 .header-mob-social-list { gap:56px;}
 
-/* .business {
-    srcset="../images/people-office-tablet.jpg 420w";
-    } */
+@media (min-width: 500px) {
+      .business { background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tablet.jpg);
+        } }
 
 .business-title {
     font-size: 36px;
@@ -21,15 +25,6 @@
     margin-bottom: 48px;
 }
 
-
-/* .portfolio-projects-list {
-  width: ;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-} */
 
 
 
@@ -110,6 +105,13 @@
         url(../images/people-office-tablet.jpg);
     }
 
+    @media (min-width: 900px) {
+      .business { background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+        } }
     
 @media (min-device-pixel-ratio:2), 
 (min-resolution: 192dpi),
