@@ -552,39 +552,23 @@ font-weight: 400;
   }
   
   .portfolio-filtr-list {
-    width: 1158px;
-    width: calc(100% - (24px * 4) / 5);
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
+    min-width: 600px;
+     margin:0 auto;
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    flex-wrap: nowrap;
   }
   
   .portfolio-btn {
-    font-family: inherit;
-    color: #4d5ae5;
-    background: var(--cloud, #f4f4fd);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    padding: 12px 24px;
+        padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid var(--cornflower, #e7e9fc);
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+       margin:  auto;
+    display: flex;}
+
+
+  
   .portfolio-btn:hover,
   .portfolio-btn:focus {
     background-color: var(--ocean, #404bbf);
