@@ -633,9 +633,6 @@ max-width: 263px;
 }
 
 
-
-
-
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--ocean, #404bbf);
@@ -651,7 +648,7 @@ max-width: 263px;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-   row-gap: 48px;
+  row-gap: 48px;
   width: 100%;
   justify-content: center;
 }
