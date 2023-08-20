@@ -611,13 +611,12 @@ color: var(--navyblue, #2E2F42);
 }
 
 .portfolio-filtr-list {
-  width: calc(100% - (24px * 2) / 3);
-  margin: 0;
+max-width: 263px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px 24px;
-padding-right: 134px;
-margin-bottom: 48px;
+  gap: 16px;
+  row-gap: 16px;
+  margin-bottom: 48px;
  }
 
 .portfolio-btn {
@@ -659,6 +658,7 @@ margin-bottom: 48px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: 100%;
 }
 .portfolio-link {
   display: block;

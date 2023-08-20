@@ -14,6 +14,26 @@
 .customers-menu-item {width: 190px;
 }
 
+.portfolio-filtr-list{
+  max-width: 270px;
+  gap: 24px;
+  row-gap: 16px;
+    margin-bottom: 48px;
+}
+
+
+/* .portfolio-projects-list {
+  width: ;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+} */
+
+
+
+
 
 .footer-form-forma{max-width: 398px;}
 
