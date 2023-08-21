@@ -18,9 +18,6 @@
 .customers-menu-item {width: 190px;
 }
 
-
-
-
 .portfolio-filtr-list{
   max-width: 270px;
   gap: 24px;
@@ -36,6 +33,16 @@
 .modal{ width: 392px;
   padding: 72px 16px 24px 16px;}
 
+  .checkbox-label {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    }
+    .checkbox-link {
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      } 
+    
+    
   .modal-btn {margin-left: 95px;
 }
 }
