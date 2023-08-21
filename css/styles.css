@@ -490,10 +490,8 @@ color: var(--navyblue, #2E2F42);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 232px;
   height: 40px;
-  margin: 0 auto;
-}
+  }
 
 .team-menu-fon {
   flex-shrink: 0;
