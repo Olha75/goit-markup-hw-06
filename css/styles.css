@@ -92,6 +92,7 @@ ol {
   width: 100%;
    margin: 0 auto;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  max-width: 428px;
 }
 
 .header-navigation {
