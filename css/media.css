@@ -3,13 +3,13 @@
   }
 .header-mob-social-list { gap:56px;}
 
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
       .business { background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-tablet.jpg);
-        } }
+        } } */
 
 .business-title {
     font-size: 36px;
@@ -17,6 +17,9 @@
 }
 .customers-menu-item {width: 190px;
 }
+
+
+
 
 .portfolio-filtr-list{
   max-width: 270px;
@@ -95,7 +98,7 @@
           ),
         url(../images/people-office-tablet.jpg);
     }
-
+/* 
     @media (min-width: 900px) {
       .business { background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -103,7 +106,7 @@
     ),
     url(../images/people-office.jpg);
         } }
-    
+     */
 @media (min-device-pixel-ratio:2), 
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
